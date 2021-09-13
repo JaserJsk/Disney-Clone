@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
@@ -68,27 +69,33 @@ const Header = (props) => {
         <>
           <NavMenu>
             <a href="/home">
-              <img src="/assets/images/home-icon.svg" alt="HOME" />
+              <img src="/assets/images/icons/home-icon.svg" alt="HOME" />
               <span>HOME</span>
             </a>
             <a>
-              <img src="/assets/images/search-icon.svg" alt="SEARCH" />
+              <img src="/assets/images/icons/search-icon.svg" alt="SEARCH" />
               <span>SEARCH</span>
             </a>
             <a>
-              <img src="/assets/images/watchlist-icon.svg" alt="WATCHLIST" />
+              <img
+                src="/assets/images/icons/watchlist-icon.svg"
+                alt="WATCHLIST"
+              />
               <span>WATCHLIST</span>
             </a>
             <a>
-              <img src="/assets/images/original-icon.svg" alt="ORIGINALS" />
+              <img
+                src="/assets/images/icons/original-icon.svg"
+                alt="ORIGINALS"
+              />
               <span>ORIGINALS</span>
             </a>
             <a>
-              <img src="/assets/images/movie-icon.svg" alt="MOVIES" />
+              <img src="/assets/images/icons/movie-icon.svg" alt="MOVIES" />
               <span>MOVIES</span>
             </a>
             <a>
-              <img src="/assets/images/series-icon.svg" alt="SERIES" />
+              <img src="/assets/images/icons/series-icon.svg" alt="SERIES" />
               <span>SERIES</span>
             </a>
           </NavMenu>
@@ -162,6 +169,7 @@ const NavMenu = styled.div`
       font-size: 13px;
       letter-spacing: 1.42px;
       line-height: 1.08;
+      margin-left: 8px;
       padding: 2px 0px;
       white-space: nowrap;
       position: relative;
@@ -193,9 +201,9 @@ const NavMenu = styled.div`
     }
   }
 
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     display: none;
-  } */
+  }
 `;
 
 const Login = styled.a`

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import styled from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,25 +17,25 @@ const ImgSlider = (props) => {
     <Carousel {...settings}>
       <Wrap>
         <a>
-          <img src="/assets/images/slider-badging.jpg" alt="" />
+          <img src="/assets/images/slides/classic.jpg" alt="Badging" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/assets/images/slider-scale.jpg" alt="" />
+          <img src="/assets/images/slides/onward.jpg" alt="Scale" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/assets/images/slider-badag.jpg" alt="" />
+          <img src="/assets/images/slides/wanda-vision.jpg" alt="Badag" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/assets/images/slider-scales.jpg" alt="" />
+          <img src="/assets/images/slides/making-of.jpg" alt="Scales" />
         </a>
       </Wrap>
     </Carousel>

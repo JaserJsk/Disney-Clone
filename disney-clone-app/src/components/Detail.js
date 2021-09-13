@@ -36,11 +36,11 @@ const Detail = (props) => {
       <ContentMeta>
         <Controls>
           <Player>
-            <img src="/assets/images/play-icon-black.png" alt="" />
+            <img src="/assets/images/icons/play-icon-black.png" alt="" />
             <span>Play</span>
           </Player>
           <Trailer>
-            <img src="/assets/images/play-icon-white.png" alt="" />
+            <img src="/assets/images/icons/play-icon-white.png" alt="" />
             <span>Trailer</span>
           </Trailer>
           <AddList>
@@ -49,7 +49,7 @@ const Detail = (props) => {
           </AddList>
           <GroupWatch>
             <div>
-              <img src="/assets/images/group-icon.png" alt="" />
+              <img src="/assets/images/icons/group-icon.png" alt="" />
             </div>
           </GroupWatch>
         </Controls>
